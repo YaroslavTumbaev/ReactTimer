@@ -1,0 +1,50 @@
+
+.startWindow {
+    width: 1000px;
+    height: 700px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: black;
+    font-size: 70px;
+  }
+  
+  .hours, .seconds, .minets {
+    font-size: 70px;
+    color: black;
+    margin: 0px 100px 0px 100px;
+  }
+  
+  .slash {
+    background-color: black;
+    width: 1px;
+    height: 300px;
+    opacity: 0.5;
+  }
+
+  .startBtn {
+    width: 300px;
+    height: 40px;
+    background-color: rgb(152, 152, 152);
+    position: absolute;
+    top: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    font-size: 20px;
+  }
+
+.counter {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 100px;
+}
+
+.counter p {
+  margin: 70px;
+}
